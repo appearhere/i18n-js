@@ -28,7 +28,7 @@
   "use strict";
 
   // Use previously defined object if exists in current scope
-  var I18n = global && global.I18n || {};
+  var I18n = global && Object.assign({}, global.I18n) || {};
 
   // Just cache the Array#slice function.
   var slice = Array.prototype.slice;
