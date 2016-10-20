@@ -1,3 +1,5 @@
+//= require i18n/shims
+//
 // I18n.js
 // =======
 //
